@@ -1,10 +1,10 @@
 #!/bin/bash
+clear
 if [ $UID -ne 0 ]; then
 echo "Please Run The Script With Root User" | lolcat
 fi
 
 START=`date +%s`
-clear
 neofetch
 echo author: Deecodes | sudo lolcat
 echo "What do you want to deauth...??"
