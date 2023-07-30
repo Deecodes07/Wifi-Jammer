@@ -1,4 +1,7 @@
 #!/bin/bash
+if [ $UID -ne 0 ]; then
+echo "Please Run The Script With Root User" | lolcat
+fi
 
 START=`date +%s`
 clear
