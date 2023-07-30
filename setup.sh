@@ -1,6 +1,5 @@
 #!/bin/bash
 
-chmod +x wifi-jammer.sh
 sudo apt install neofetch -y
 sudo apt install aircrack-ng -y
 sudo apt install lolcat -y
