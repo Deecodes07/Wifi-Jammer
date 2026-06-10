@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install neofetch -y
+sudo apt install fastfetch -y
 sudo apt install aircrack-ng -y
 sudo apt install lolcat -y
 
