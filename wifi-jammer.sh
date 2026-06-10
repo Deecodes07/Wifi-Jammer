@@ -2,6 +2,7 @@
 clear
 if [ $UID -ne 0 ]; then
 echo "Please Run The Script With Root User" | lolcat
+exit
 fi
 
 START=`date +%s`
