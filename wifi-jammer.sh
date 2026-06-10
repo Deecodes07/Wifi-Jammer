@@ -5,7 +5,7 @@ echo "Please Run The Script With Root User" | lolcat
 fi
 
 START=`date +%s`
-neofetch
+fastfetch
 echo author: Deecodes | sudo lolcat
 echo "What do you want to deauth...??"
 echo "1) Router"
